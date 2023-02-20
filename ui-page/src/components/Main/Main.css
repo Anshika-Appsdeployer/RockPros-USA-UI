@@ -1,0 +1,25 @@
+.container {
+  /* position: fixed; */
+  overflow-x: scroll;
+  overflow-y: scroll;
+  max-height: 550px;
+}
+
+@media (max-width: 767px) {
+  .col {
+    display: flex;
+    justify-content: space-between;
+  }
+  .list {
+    position: fit-content;
+  }
+  body {
+    overflow-x: auto;
+    overflow-y: auto;
+  }
+  .container {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    max-height: 650px;
+  }
+}
