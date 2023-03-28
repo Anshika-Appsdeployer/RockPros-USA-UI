@@ -1,8 +1,21 @@
+body {
+  overflow-y: hidden;
+}
+
 .container {
   /* position: fixed; */
   overflow-x: scroll;
   overflow-y: scroll;
   max-height: 550px;
+}
+
+.buttons {
+  height: 30px;
+}
+
+.search-form {
+  top: 0;
+  position: relative;
 }
 
 @media (max-width: 767px) {
@@ -15,7 +28,7 @@
   }
   body {
     overflow-x: auto;
-    overflow-y: auto;
+    overflow-y: hidden;
   }
   .container {
     overflow-x: scroll;

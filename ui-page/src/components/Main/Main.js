@@ -11,13 +11,13 @@ const Main = () => {
         <>
             <Container>
                 <div className="col d-flex justify-content-between flex-wrap">
-                <Button variant="primary" size="sm">Open Orders</Button>{' '}
-                <Button variant="primary" size="sm">Short Quantity Orders</Button>{' '}
-                <Button variant="primary" size="sm">Trucker Requested Orders</Button>{' '}
-                <Button variant="primary" size="sm">Dispatched Orders</Button>{' '}
+                    <Button variant="primary" size="sm" className="buttons">Open Orders</Button>{' '}
+                    <Button variant="primary" size="sm" className="buttons">Short Quantity Orders</Button>{' '}
+                    <Button variant="primary" size="sm" className="buttons">Trucker Requested Orders</Button>{' '}
+                    <Button variant="primary" size="sm" className="buttons">Dispatched Orders</Button>{' '}
 
-                <div className="search-bar search-bar-show">
-                        <form className="search-form d-flex align-items-center rounded" action="#">
+                    <div className="search-form">
+                        <form className="d-flex align-items-center rounded" action="#">
                             <input type="text" placeholder="Search" title="Enter search keyword" />
                             <button type="submit" title="Search" className="btn border-dark m-2">
                                 <BiSearch style={{ fontSize: '20px' }} />
@@ -25,8 +25,8 @@ const Main = () => {
                         </form>
                     </div>
                 </div>
-                
-                <div className="mt-1">
+
+                <div className="col-sm mt-1">
                     <Table striped condensed bordered hover>
                         <thead>
                             <tr>
@@ -215,7 +215,7 @@ const Main = () => {
                             </tr>
                             <tr>
                                 <td>13</td>
-                                <td>Larry the Bird</td>
+                                <td>Larry</td>
                                 <td>Thornton</td>
                                 <td>@twitter</td>
                                 <td>Jacob</td>
@@ -228,7 +228,7 @@ const Main = () => {
                             </tr>
                             <tr>
                                 <td>13</td>
-                                <td>Larry the Bird</td>
+                                <td>Larry</td>
                                 <td>Thornton</td>
                                 <td>@twitter</td>
                                 <td>Jacob</td>
@@ -241,7 +241,7 @@ const Main = () => {
                             </tr>
                             <tr>
                                 <td>13</td>
-                                <td>Larry the Bird</td>
+                                <td>Larry</td>
                                 <td>Thornton</td>
                                 <td>@twitter</td>
                                 <td>Jacob</td>
@@ -254,7 +254,7 @@ const Main = () => {
                             </tr>
                             <tr>
                                 <td>13</td>
-                                <td>Larry the Bird</td>
+                                <td>Larry</td>
                                 <td>Thornton</td>
                                 <td>@twitter</td>
                                 <td>Jacob</td>
